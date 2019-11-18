@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-theme-phoenix-workspace",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "@arshad/gatsby-theme-phoenix",
+    "www"
+  ],
+  "scripts": {
+    "develop": "yarn workspace www develop",
+    "clean": "yarn workspace www clean",
+    "build": "yarn workspace www build",
+    "serve": "yarn workspace www serve",
+    "dev": "yarn clean && yarn develop",
+    "view": "yarn build && yarn serve",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
