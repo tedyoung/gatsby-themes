@@ -8,9 +8,9 @@ const Header = ({ siteName, menuLinks, socialLinks, mode, setMode }) => {
   const [navOpen, setNavOpen] = useState(false)
 
   return (
-    <header>
-      <div className="bg-primary h-2 -mx-4" />
-      <div className="container mx-auto py-2 md:py-6">
+    <header className="-mx-4">
+      <div className="bg-primary h-2" />
+      <div className="container mx-auto px-4 md:px-0 py-2 md:py-6">
         <div className="flex-col md:flex md:flex-row justify-center md:justify-between">
           <div className="flex md:inline-block justify-between">
             <Link
@@ -80,7 +80,7 @@ const Header = ({ siteName, menuLinks, socialLinks, mode, setMode }) => {
             id="nav-main"
             className={`mt-4 md:flex animated ${navOpen ? "block" : "hidden"}`}
           >
-            <ul className="md:flex w-full">
+            <ul className="md:flex justify-center w-full">
               {menuLinks.map(({ name, link }) => (
                 <li key={name} className="mt-4 md:mr-7 md:mt-0">
                   <Link
