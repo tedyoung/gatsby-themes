@@ -18,6 +18,8 @@ A personal blogging and portfolio theme for Gatsby with great typography and dar
 
 `gatsby new phoenix-site https://github.com/arshad/gatsby-starter-phoenix`
 
+then copy `.env.example` to `.env` and run `gatsby develop`
+
 ## Adding content
 
 ### Page
