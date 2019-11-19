@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import Header from "./Header"
+import Footer from "./Footer"
 import Seo from "../SEO/SEO"
 
 import Icon from "../Icon/Icon"
@@ -37,6 +38,7 @@ const Layout = ({ children }) => {
           siteMetadata {
             title
             description
+            copyright
             menuLinks {
               name
               link
@@ -55,6 +57,7 @@ const Layout = ({ children }) => {
   const {
     title,
     description,
+    copyright,
     socialLinks,
     menuLinks,
   } = data.allSite.nodes[0].siteMetadata
@@ -85,6 +88,12 @@ const Layout = ({ children }) => {
           <MDXProvider components={mdxComponents}>{children}</MDXProvider>
         </div>
       </main>
+
+      <Footer>
+        <p className="small text-center">
+          {copyright.replace(/(Y{4})/, new Date().getFullYear())}
+        </p>
+      </Footer>
     </>
   )
 }

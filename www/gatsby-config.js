@@ -7,6 +7,7 @@ const config = {
   startUrl: "/",
   postsPerPage: 5,
   icon: `assets/images/icon.png`,
+  copyright: `© YYYY Phoenix. All rights reserved.`,
   colors: {
     primary: "#3C64F1",
   },
