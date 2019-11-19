@@ -5,6 +5,10 @@
 # Phoenix - Gatsby theme
 A personal blogging and portfolio theme for Gatsby with great typography and dark mode.
 
+## Demo
+
+See https://gatsby-theme-phoenix-demo.netlify.com/
+
 ## Features
 
 * MDX - Posts, Pages and Projects
