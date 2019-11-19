@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Phoenix preview" src="https://raw.githubusercontent.com/arshad/gatsby-theme-phoenix/master/www/assets/images/preview.png" />
+</p>
+
 # Phoenix - Gatsby theme
 A personal blogging and portfolio theme for Gatsby with great typography and dark mode.
 
@@ -6,8 +10,8 @@ A personal blogging and portfolio theme for Gatsby with great typography and dar
 * MDX - Posts, Pages and Projects
 * Tags/Categories
 * Dark mode
-* Customizable with Tailwind
-* Code highlighting with [Prism](https://prismjs.com/)
+* Customizable with [Tailwind CSS](https://tailwindcss.com)
+* Code highlighting with [Prism](https://prismjs.com)
 * RSS feed and SEO
 
 ## Installation
@@ -93,6 +97,16 @@ image: image.jpg
 ---
 ```
 
+### MDX Components
+
+The following components are available within MDX files:
+
+* `<Link>`
+* `<Icon>`
+* `<IconNav>`
+* `<Button>`
+* `<ProjectList>`
+
 ## Configuration
 
 The following theme options and configuration is available:
@@ -148,7 +162,12 @@ The following theme options and configuration is available:
 }
 ```
 
-## Need help?
+## Customization
 
-Create an issue [here](https://github.com/arshad/gatsby-theme-phoenix/issues)
+Gatsby uses shadowing for theme customization. You can read more about it [here](https://www.gatsbyjs.org/docs/themes/shadowing/).
+
+### Credits
+
+* Illustrations from [illlustrations.co](https://illlustrations.co)
+* Icons from [Feather](https://feathericons.com)
 
