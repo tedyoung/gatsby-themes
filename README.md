@@ -16,7 +16,7 @@ A personal blogging and portfolio theme for Gatsby with great typography and dar
 
 ## Installation
 
-`gatsby new phoenix-site arshad/gatsby-starter-phoenix`
+`gatsby new phoenix-site https://github.com/arshad/gatsby-starter-phoenix`
 
 ## Adding content
 
