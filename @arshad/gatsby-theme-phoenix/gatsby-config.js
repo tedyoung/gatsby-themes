@@ -65,6 +65,13 @@ module.exports = ({
           path: `${contentPath}/posts`,
         },
       },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `project`,
+          path: `${contentPath}/projects`,
+        },
+      },
       `gatsby-transformer-sharp`,
       `gatsby-transformer-remark`,
       `gatsby-plugin-sharp`,

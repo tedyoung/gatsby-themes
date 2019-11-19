@@ -33,6 +33,14 @@ exports.createSchemaCustomization = ({ actions }) => {
       slug: String!
       body: String!
     }
+    
+    type Project implements Node @dontInfer {
+      id: ID!
+      title: String!
+      excerpt: String
+      url: String
+      image: File @fileByRelativePath
+    }
   `)
 }
 
@@ -83,6 +91,7 @@ exports.onCreateNode = async ({
   const nodeTypes = {
     post: "Post",
     page: "Page",
+    project: "Project",
   }
   const nodeType = nodeTypes[parent.sourceInstanceName]
 
@@ -99,6 +108,7 @@ exports.onCreateNode = async ({
       image: node.frontmatter.image,
       caption: node.frontmatter.caption,
       tags: node.frontmatter.tags,
+      url: node.frontmatter.url,
       parent: node.id,
       internal: {
         type: nodeType,
@@ -142,7 +152,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           caption
           image {
             full: childImageSharp {
-              fluid(maxWidth: 960, maxHeight: 540, quality: 100) {
+              fluid(
+                maxWidth: 960
+                maxHeight: 540
+                cropFocus: CENTER
+                quality: 100
+              ) {
                 base64
                 aspectRatio
                 src

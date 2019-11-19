@@ -1,19 +1,22 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import Header from "./Header"
+import Seo from "../SEO/SEO"
 
 import Icon from "../Icon/Icon"
 import IconNav from "../Icon/IconNav"
 import Button from "../Button/Button"
-import Seo from "../SEO/SEO"
+import ProjectList from "../Project/ProjectList"
 
 // Components available in MDX files.
 const mdxComponents = {
+  Link,
   Button,
   Icon,
   IconNav,
+  ProjectList,
 }
 
 const Layout = ({ children }) => {
@@ -77,7 +80,7 @@ const Layout = ({ children }) => {
         menuLinks={menuLinks}
       />
 
-      <main className="py-6 md:py-16">
+      <main className="py-6 md:py-12">
         <div className="container mx-auto">
           <MDXProvider components={mdxComponents}>{children}</MDXProvider>
         </div>
