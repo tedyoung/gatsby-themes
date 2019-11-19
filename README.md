@@ -9,6 +9,8 @@ A personal blogging and portfolio theme for Gatsby with great typography and dar
 
 See https://gatsby-theme-phoenix-demo.netlify.com/
 
+<img alt="Phoenix Lighthouse" src="https://raw.githubusercontent.com/arshad/gatsby-theme-phoenix/master/www/assets/images/lighthouse.png" />
+
 ## Features
 
 * MDX - Posts, Pages and Projects
@@ -17,6 +19,7 @@ See https://gatsby-theme-phoenix-demo.netlify.com/
 * Customizable with [Tailwind CSS](https://tailwindcss.com)
 * Code highlighting with [Prism](https://prismjs.com)
 * RSS feed and SEO
+* Accessible
 
 ## Installation
 
