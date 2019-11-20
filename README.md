@@ -1,17 +1,17 @@
-<p align="center">
-  <img alt="Phoenix preview" src="https://raw.githubusercontent.com/arshad/gatsby-theme-phoenix/master/www/assets/images/preview.png" />
-</p>
-
-# Phoenix - Gatsby theme
+# 👉 Phoenix - Gatsby theme
 A personal blogging and portfolio theme for Gatsby with great typography and dark mode.
+
+<p align="center">
+  <img src="https://i.imgur.com/BufJgj8.png" alt="Phoenix preview" />
+</p>
 
 ## Demo
 
 See https://gatsby-theme-phoenix-demo.netlify.com/
 
-<img alt="Phoenix Lighthouse" src="https://raw.githubusercontent.com/arshad/gatsby-theme-phoenix/master/www/assets/images/lighthouse.png" />
+<img alt="Phoenix Lighthouse" src="https://raw.githubusercontent.com/arshad/gatsby-theme-phoenix/master/www/assets/images/lighthouse.png" width="50%" />
 
-## Features
+## ✨ Features
 
 * MDX - Posts, Pages and Projects
 * Tags/Categories
@@ -21,13 +21,13 @@ See https://gatsby-theme-phoenix-demo.netlify.com/
 * RSS feed and SEO
 * Accessible
 
-## Installation
+## ⚙️ Installation
 
 `gatsby new phoenix-site https://github.com/arshad/gatsby-starter-phoenix`
 
 then copy `.env.example` to `.env` and run `gatsby develop`
 
-## Adding content
+## 📝 Adding content
 
 ### Page
 Place your pages inside `content/pages` as follows:
@@ -175,7 +175,7 @@ The following theme options and configuration is available:
 
 Gatsby uses shadowing for theme customization. You can read more about it [here](https://www.gatsbyjs.org/docs/themes/shadowing/).
 
-### Credits
+### 👏 Credits
 
 * Illustrations from [illlustrations.co](https://illlustrations.co)
 * Icons from [Feather](https://feathericons.com)
