@@ -22,7 +22,7 @@ const mdxComponents = {
 
 const Layout = ({ children }) => {
   const [mode, setMode] = useState(
-    typeof localStorage !== "undefined" ? localStorage.getItem("mode") : "light"
+    typeof localStorage !== "undefined" ? localStorage.getItem("mode") || "light" : "light"
   )
 
   React.useEffect(() => {
