@@ -2,7 +2,7 @@
   "name": "@arshad/gatsby-source-podcast",
   "description": "Clone of gatsby-source-rss-feed with some customization to work with Podcast RSS feed",
   "author": "arshad <arshad@chummun.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "gatsby-node.js",
   "license": "MIT",
   "publishConfig": {
