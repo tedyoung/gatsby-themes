@@ -1,19 +1,19 @@
-<div align="center">
+<p align="center">
 <h1>@arshad/gatsby-themes</h1>
-</div>
+</p>
 
 <p align="center">
 A collection of <strong>open source</strong>, <strong>well designed</strong> and <strong>highly customizable</strong> Gatsby themes for <em>blazing fast sites</em>.
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@arshad/gatsby-theme-phoenix"><img src="https://img.shields.io/npm/l/@arshad/gatsby-theme-phoenix.svg" alt="License"></a>
-  <a href="https://github.com/arshad/gatsby-themes"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" /></a>
+  <a href="https://github.com/arshad/gatsby-themes/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/@arshad/gatsby-theme-phoenix.svg" alt="License"></a>
+  <a href="https://github.com/arshad/gatsby-themes/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" /></a>
 </p>
 
 ## Themes
 
-### Phoenix ([@arshad/gatsby-theme-phoenix](https://github.com/arshad/gatsby-themes/tree/master/themes/gatsby-theme-phoenix))
+### 1. Phoenix ([@arshad/gatsby-theme-phoenix](https://github.com/arshad/gatsby-themes/tree/master/themes/gatsby-theme-phoenix))
 
 <p>A Gatsby theme that bundles a blog, portfolio, photography and podcast. It uses <strong>Tailwind CSS</strong> for theming and includes <strong>code highlighting with Prism, RSS feed, a dark mode</strong> and <strong>great typography</strong>. It is <strong>accessible</strong> and <strong>optimized for search engines</strong>.</p>
 
@@ -31,6 +31,8 @@ All included themes are composed themes, which means they make use of multiple c
 The following diagram shows an example of theme composition for @arshad/gatsby-theme-phoenix.
 
 ![Theme composition](./www/assets/images/architecture.jpg)
+
+As you can see, you can easily swap `@arshad/gatsby-theme-phoenix` with your own theme and styles, keeping all functionality unchanged.
 
 ## Core themes
 
@@ -51,7 +53,7 @@ Click on the theme page to learn more about the core theme and how to use it.
 
 ## Usage
 
-You can mix and match core themes to compose your Gatsby site.
+[Browse our free themes](https://github.com/arshad/gatsby-themes/tree/master/themes) or create your own. You can mix and match core themes to compose your Gatsby site.
 
 ### Example
 
@@ -78,3 +80,7 @@ To disable a core theme, run `yarn remove @arshad/gatsby-theme-name` and then re
 ## Support
 
 Need help? Create an issue on the main repo [@arshad/gatsby-themes](https://github.com/arshad/gatsby-themes/issues) or ask me [@arshadcn](https://twitter.com/arshadcn).
+
+## License
+
+<a href="https://www.npmjs.com/package/@arshad/gatsby-theme-phoenix"><img src="https://img.shields.io/npm/l/@arshad/gatsby-theme-phoenix.svg" alt="License"></a>
