@@ -1,6 +1,7 @@
-<p align="center">
+<div align="center">
+<img src="./www/assets/images/logos.svg" width="300px" />
 <h1>@arshad/gatsby-themes</h1>
-</p>
+</div>
 
 <p align="center">
 A collection of <strong>open source</strong>, <strong>well designed</strong> and <strong>highly customizable</strong> Gatsby themes for <em>blazing fast sites</em>.
