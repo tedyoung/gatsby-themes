@@ -10,13 +10,14 @@ A collection of <strong>open source</strong>, <strong>well designed</strong> and
 <p align="center">
   <a href="https://github.com/arshad/gatsby-themes/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/@arshad/gatsby-theme-phoenix.svg" alt="License"></a>
   <a href="https://github.com/arshad/gatsby-themes/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" /></a>
+  <a href="https://twitter.com/arshadcn"><img src="https://img.shields.io/badge/Follow-%40arshadcn-1da1f2" alt="Follow @arshadcn" /></a>
 </p>
 
 ## Themes
 
 ### 1. Phoenix ([@arshad/gatsby-theme-phoenix](https://github.com/arshad/gatsby-themes/tree/master/themes/gatsby-theme-phoenix))
 
-<p>A Gatsby theme that bundles a blog, portfolio, photography and podcast. It uses <strong>Tailwind CSS</strong> for theming and includes <strong>code highlighting with Prism, RSS feed, a dark mode</strong> and <strong>great typography</strong>. It is <strong>accessible</strong> and <strong>optimized for search engines</strong>.</p>
+<p>A Gatsby theme that bundles a <strong>blog, portfolio, photography</strong> and <strong>podcast</strong>. It uses <strong>Tailwind CSS</strong> for theming and includes <strong>code highlighting with Prism, RSS feed, a dark mode</strong> and <strong>great typography</strong>. It is <strong>accessible</strong> and <strong>optimized for search engines</strong>.</p>
 
 <a href="https://arshad-gatsby-example-phoenix.netlify.com"><img src="https://img.shields.io/badge/demo-netlify-success" alt="Demo"></a>
 <a href="https://www.npmjs.com/package/@arshad/gatsby-theme-phoenix"><img src="https://img.shields.io/npm/v/@arshad/gatsby-theme-phoenix.svg" alt="Version"></a>
