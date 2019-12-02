@@ -19,12 +19,16 @@ A collection of <strong>open source</strong>, <strong>well designed</strong> and
 
 <p>A Gatsby theme that bundles a <strong>blog, portfolio, photography</strong> and <strong>podcast</strong>. It uses <strong>Tailwind CSS</strong> for theming and includes <strong>code highlighting with Prism, RSS feed, a dark mode</strong> and <strong>great typography</strong>. It is <strong>accessible</strong> and <strong>optimized for search engines</strong>.</p>
 
+<img src="https://camo.githubusercontent.com/7ff21b250ddf67877e4fc6e1d39be0811add1d8f/68747470733a2f2f692e696d6775722e636f6d2f4275664a676a382e706e67" />
+
+<p align="center">
 <a href="https://arshad-gatsby-example-phoenix.netlify.com"><img src="https://img.shields.io/badge/demo-netlify-success" alt="Demo"></a>
 <a href="https://www.npmjs.com/package/@arshad/gatsby-theme-phoenix"><img src="https://img.shields.io/npm/v/@arshad/gatsby-theme-phoenix.svg" alt="Version"></a>
+</p>
 
-Create a Phoenix site: `gatsby new site arshad/gatsby-starter-phoenix` 👈
-
-Follow [@arshadcn](https://twitter.com/arshadcn) for more themes.
+<p align="center">
+<code>gatsby new site arshad/gatsby-starter-phoenix</code>
+</p>
 
 ## Architecture
 
