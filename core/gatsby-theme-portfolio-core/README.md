@@ -36,7 +36,7 @@ yarn add @arshad/gatsby-theme-portfolio-core
 | Key           | Default value      | Description                                                    |
 | ------------- | ------------------ | -------------------------------------------------------------- |
 | `contentPath` | `content/projects` | Location of your projects                                      |
-| `basePath`    | `/photography`     | Root url for all projects                                      |
+| `basePath`    | `/projects`        | Root url for all projects                                      |
 | `pageTitle`   | `Portfolio`        | The title for the portfolio page. Leave blank for no title     |
 | `pageExcerpt` | `null`             | The excerpt for the portfolio page. Leave blank for no excerpt |
 
