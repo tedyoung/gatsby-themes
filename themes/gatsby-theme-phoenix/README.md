@@ -13,7 +13,7 @@ A Gatsby theme that bundles a blog, portfolio, photography and podcast. It uses 
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/BufJgj8.png" alt="Phoenix preview" />
+  <img src="https://arshad.io/uploads/gatsby-theme-phoenix-screenshot.jpg" alt="Phoenix preview" />
 </p>
 
 <h3 align="center"><code>gatsby new site arshad/gatsby-starter-phoenix</code></h3>
