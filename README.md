@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-A collection of <strong>open source</strong>, <strong>well designed</strong> and <strong>highly customizable</strong> Gatsby themes for <em>blazing fast sites</em>.
+A collection of <strong>open source</strong>, <strong>well designed</strong>, <strong>highly customizable</strong> and <strong>100% free</strong> Gatsby themes for <em>blazing fast sites</em>.
 </p>
 
 <p align="center">
@@ -15,20 +15,16 @@ A collection of <strong>open source</strong>, <strong>well designed</strong> and
 
 ## Themes
 
-### 1. Phoenix ([@arshad/gatsby-theme-phoenix](https://github.com/arshad/gatsby-themes/tree/master/themes/gatsby-theme-phoenix))
+### 1. Phoenix
 
-<p>A Gatsby theme that bundles a <strong>blog, portfolio, photography</strong> and <strong>podcast</strong>. It uses <strong>Tailwind CSS</strong> for theming and includes <strong>code highlighting with Prism, RSS feed, a dark mode</strong> and <strong>great typography</strong>. It is <strong>accessible</strong> and <strong>optimized for search engines</strong>.</p>
-
-<img src="https://arshad.io/uploads/gatsby-theme-phoenix-screenshot.jpg" />
-
-<p align="center">
+<p>
 <a href="https://arshad-gatsby-example-phoenix.netlify.com"><img src="https://img.shields.io/badge/demo-netlify-success" alt="Demo"></a>
 <a href="https://www.npmjs.com/package/@arshad/gatsby-theme-phoenix"><img src="https://img.shields.io/npm/v/@arshad/gatsby-theme-phoenix.svg" alt="Version"></a>
 </p>
 
-<p align="center">
-<code>gatsby new site arshad/gatsby-starter-phoenix</code>
-</p>
+<p>A Gatsby theme that bundles a <strong>blog, portfolio, photography</strong> and <strong>podcast</strong>. It uses <strong>Tailwind CSS</strong> for theming and includes <strong>code highlighting with Prism, RSS feed, a dark mode</strong> and <strong>great typography</strong>.</p>
+
+<img src="https://arshad.io/uploads/gatsby-theme-phoenix-screenshot.jpg" />
 
 ## Architecture
 
