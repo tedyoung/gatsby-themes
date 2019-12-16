@@ -122,6 +122,15 @@ type PodcastEpisode implements Node @dontInfer {
 }
 ```
 
+### PodcastSocialLink
+
+```js
+type PodcastSocialLink implements Node @dontInfer {
+  name: String!
+  url: String!
+}
+```
+
 ## Customization
 
 Create the following components in your site to shadow and customize the core components:
