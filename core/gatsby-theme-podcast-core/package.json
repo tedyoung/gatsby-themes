@@ -2,7 +2,7 @@
   "name": "@arshad/gatsby-theme-podcast-core",
   "description": "Adds support for podcast to Gatsby sites",
   "author": "arshad <arshad@chummun.com>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
