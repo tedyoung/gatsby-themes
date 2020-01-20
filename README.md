@@ -15,7 +15,18 @@ A collection of <strong>open source</strong>, <strong>well designed</strong>, <s
 
 ## Themes
 
-### 1. Phoenix
+### Flex
+
+<p>
+<a href="https://flex.arshad.io"><img src="https://img.shields.io/badge/demo-netlify-success" alt="Demo"></a>
+<a href="https://www.npmjs.com/package/gatsby-theme-flex"><img src="https://img.shields.io/npm/v/gatsby-theme-flex.svg" alt="Version"></a>
+</p>
+
+Flex is a Gatsby theme that lets you build your site by writing simple components inside Markdown files.
+
+<img src="https://arshad.io/uploads/gatsby-theme-flex.gif" />
+
+### Phoenix
 
 <p>
 <a href="https://arshad-gatsby-example-phoenix.netlify.com"><img src="https://img.shields.io/badge/demo-netlify-success" alt="Demo"></a>

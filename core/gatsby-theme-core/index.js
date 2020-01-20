@@ -2,7 +2,9 @@ import React from "react"
 
 export const ComponentPlaceholder = props => {
   const matches = props.path.match(/(gatsby-theme-[\w\d-]*)\/src\/(.*)/)
-  const path = `./src/@arshad/${matches[1]}/${matches[2]}`
+  const path = `./src/${props.path.match(/@arshad/) ? "@arshad/" : ""}${
+    matches[1]
+  }/${matches[2]}`
   return (
     <div
       style={{

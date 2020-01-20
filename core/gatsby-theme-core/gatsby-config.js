@@ -5,6 +5,8 @@ module.exports = themeOptions => {
 
   return {
     plugins: [
+      `gatsby-plugin-sharp`,
+      `gatsby-transformer-sharp`,
       {
         resolve: `gatsby-source-filesystem`,
         options: {
@@ -12,8 +14,6 @@ module.exports = themeOptions => {
           path: imagesPath,
         },
       },
-      `gatsby-plugin-sharp`,
-      `gatsby-transformer-sharp`,
     ],
   }
 }

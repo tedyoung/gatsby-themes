@@ -19,8 +19,12 @@
     "sync": "npm run sync:starters && npm run sync:examples",
     "sync:starters": "./scripts/sync.sh \"starters/*\"",
     "sync:examples": "./scripts/sync.sh \"examples/*\"",
+    "themes:phoenix": "yarn workspace @arshad/gatsby-theme-phoenix",
     "starters:phoenix": "yarn workspace @arshad/gatsby-starter-phoenix",
-    "examples:phoenix": "yarn workspace @arshad/gatsby-example-phoenix"
+    "examples:phoenix": "yarn workspace @arshad/gatsby-example-phoenix",
+    "themes:flex": "yarn workspace gatsby-theme-flex",
+    "starters:flex": "yarn workspace gatsby-starter-flex",
+    "examples:flex": "yarn workspace gatsby-example-flex"
   },
   "husky": {
     "hooks": {
@@ -34,7 +38,7 @@
   },
   "devDependencies": {
     "husky": "3.1.0",
-    "lerna": "3.20.0",
+    "lerna": "3.19.0",
     "prettier": "1.19.1"
   },
   "dependencies": {

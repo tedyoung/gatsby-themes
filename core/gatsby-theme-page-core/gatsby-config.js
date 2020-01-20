@@ -1,4 +1,5 @@
 const withDefaults = require(`./theme-options`)
+const remarkSlug = require(`remark-slug`)
 
 module.exports = themeOptions => {
   const { contentPath } = withDefaults(themeOptions)
@@ -21,14 +22,6 @@ module.exports = themeOptions => {
         options: {
           gatsbyRemarkPlugins: [
             {
-              resolve: `gatsby-remark-prismjs`,
-              options: {
-                classPrefix: "language-",
-                inlineCodeMarker: null,
-                aliases: {},
-              },
-            },
-            {
               resolve: `gatsby-remark-images`,
               options: {
                 linkImagesToOriginal: false,
@@ -37,7 +30,7 @@ module.exports = themeOptions => {
               },
             },
           ],
-          plugins: [`gatsby-remark-images`],
+          remarkPlugins: [remarkSlug],
         },
       },
     ],
