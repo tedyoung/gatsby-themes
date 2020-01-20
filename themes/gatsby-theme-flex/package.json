@@ -2,7 +2,7 @@
   "name": "gatsby-theme-flex",
   "description": "A Gatsby theme with flexible blocks for your Markdown pages.",
   "author": "arshad <arshad@chummun.com>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -34,7 +34,7 @@
     "react-dom": "16.12.0"
   },
   "dependencies": {
-    "@arshad/gatsby-theme-page-core": "^1.0.2",
+    "@arshad/gatsby-theme-page-core": "^1.1.0",
     "@emotion/core": "^10.0.22",
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
