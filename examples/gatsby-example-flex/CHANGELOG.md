@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/arshad/gatsby-themes/compare/gatsby-example-flex@1.1.2...gatsby-example-flex@1.1.3) (2020-01-21)
+
+
+### Bug Fixes
+
+* **flex:** update title for home page ([e6f210d](https://github.com/arshad/gatsby-themes/commit/e6f210d3cca8b613bc9d10cd695cef0b4aa44932))
+
+
+
+
+
 ## [1.1.2](https://github.com/arshad/gatsby-themes/compare/gatsby-example-flex@1.1.1...gatsby-example-flex@1.1.2) (2020-01-21)
 
 

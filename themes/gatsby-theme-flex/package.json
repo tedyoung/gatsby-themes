@@ -2,7 +2,7 @@
   "name": "gatsby-theme-flex",
   "description": "A Gatsby theme with flexible blocks for your Markdown pages.",
   "author": "arshad <arshad@chummun.com>",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
