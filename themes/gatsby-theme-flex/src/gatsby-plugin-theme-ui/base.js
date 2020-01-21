@@ -323,7 +323,7 @@ export default {
       textAlign: `center`,
       maxWidth: [`none`, `350px`],
       figure: {
-        width: `50%`,
+        width: [`25%`, `50%`],
         height: `auto`,
         m: `0 auto`,
       },

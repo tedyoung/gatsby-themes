@@ -35,6 +35,7 @@ export default React.forwardRef(({ style }, ref) => {
           color: `text`,
         }}
         onClick={() => setColorMode(nextColorMode)}
+        aria-label="Toggle color mode"
       >
         <svg
           version="1.1"
