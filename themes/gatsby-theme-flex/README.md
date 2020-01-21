@@ -62,7 +62,7 @@ This will create a new page and set it as the front page. If you head to `http:/
 
 ## Add a block
 
-Let's add a hero to the home page. Add the following to your `content/pages/home/index.mdx`
+Let's add a hero to the home page. Add the following to `content/pages/home/index.mdx`
 
 ```markdown
 ---

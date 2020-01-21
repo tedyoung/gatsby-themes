@@ -187,7 +187,7 @@ export default {
       backgroundColor: `prism.background`,
       fontFamily: `monospace`,
       fontSize: 2,
-      padding: [4],
+      padding: [2, 4],
       tabSize: 4,
       hyphens: `none`,
       my: [4, 6],
