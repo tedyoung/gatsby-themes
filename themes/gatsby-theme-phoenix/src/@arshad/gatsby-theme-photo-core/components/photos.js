@@ -14,7 +14,7 @@ export default ({
     <div className="md:flex md:flex-wrap md:-mx-4">
       {photos &&
         photos.map(photo => (
-          <div class="md:w-1/3 md:px-4 mb-8" key={photo.id}>
+          <div className="md:w-1/3 md:px-4 mb-8" key={photo.id}>
             <PhotoTeaser {...photo} />
           </div>
         ))}
