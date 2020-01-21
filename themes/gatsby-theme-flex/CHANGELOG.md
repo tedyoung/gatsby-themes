@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.1.3...gatsby-theme-flex@0.1.4) (2020-01-21)
+
+
+### Bug Fixes
+
+* **flex:** update font sizes ([b58db5c](https://github.com/arshad/gatsby-themes/commit/b58db5ca5587313a6b17d3ac04129df7a3381785))
+
+
+
+
+
 ## [0.1.3](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.1.2...gatsby-theme-flex@0.1.3) (2020-01-21)
 
 **Note:** Version bump only for package gatsby-theme-flex
