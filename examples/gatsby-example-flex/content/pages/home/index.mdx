@@ -51,14 +51,16 @@ is_front: true
     pb: [6, 8, 8],
   }}
 >
-<Grid columns={[1, 1, 3]} gap={[4, 4, 6, 6, 10]}>
+<Grid columns={[1, 1, 3]} gap={[4, 4, 6, 6, 8]} sx={{
+  mt: [4, 4, 6],
+}}>
     <Card 
       heading="Gatsby"
       imageUrl="logo-gatsby.png"
       imageAlt="Gatsby"
       type="icon"
     >
-      <p>Flex is a Gatsby theme that ships with pre-built blocks.</p>
+      <p>Flex is built for Gatsby with speed and extensibility in mind.</p>
     </Card>
     <Card 
       heading="MDX"
@@ -66,7 +68,7 @@ is_front: true
       imageAlt="MDX"
       type="icon"
     >
-      <p>Build your site using React components inside markdown files.</p>
+      <p>Build your site using React components inside Markdown files.</p>
     </Card>
     <Card 
       heading="Theme UI"
@@ -137,4 +139,10 @@ Code highlighting with Prism.
   heading="Ready to get started?"
   lead="Read the documentation and start building your site."
   links={<Button url="/docs">Get Started</Button>}
+  style={{
+    bg: "#111",
+    h2: {
+      color: "white"
+    }
+  }}
 />

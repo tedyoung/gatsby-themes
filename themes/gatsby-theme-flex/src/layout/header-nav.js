@@ -30,7 +30,7 @@ const HeaderNav = ({ links }) => {
                 style={{
                   textDecoration: `none`,
                   color: `text`,
-                  fontSize: [2],
+                  fontSize: 1,
                   textTransform: `uppercase`,
                   letterSpacing: 1,
                   textAlign: `center`,
