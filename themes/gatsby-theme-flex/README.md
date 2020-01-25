@@ -34,7 +34,7 @@ Flex is a Gatsby theme that ships with pre-built blocks that you can use in your
 Create a new Flex site:
 
 ```shell
-gatsby new site http://github.com/arshad/gatsby-starter-flex
+gatsby new site arshad/gatsby-starter-flex
 ```
 
 Start the development server
