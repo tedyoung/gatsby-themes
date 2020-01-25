@@ -1,6 +1,5 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { Flex, Container } from "@theme-ui/components"
+import { jsx, Flex, Container } from "theme-ui"
 import PropTypes from "prop-types"
 import FooterNav from "./footer-nav"
 

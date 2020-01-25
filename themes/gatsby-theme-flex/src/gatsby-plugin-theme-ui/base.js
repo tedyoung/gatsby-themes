@@ -30,7 +30,7 @@ const buttonStyles = {
 
 export default {
   breakpoints: [`576px`, `768px`, `992px`, `1200px`],
-  initialColorMode: `light`,
+  initialColorModeName: `light`,
   colors: {
     text: "#000",
     background: "#fff",

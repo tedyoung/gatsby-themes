@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
+import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
-import Root from "./root"
 import Seo from "../misc/seo"
 import Header from "./header"
 import Footer from "./footer"
@@ -33,7 +33,7 @@ const Layout = ({ title, description, url, children }) => {
   const { site } = data.allSite.nodes[0]
 
   return (
-    <Root>
+    <React.Fragment>
       <Seo title={title} description={description} url={url} />
 
       <Header
@@ -52,7 +52,7 @@ const Layout = ({ title, description, url, children }) => {
       </main>
 
       <Footer copyright={site.copyright} footerLinks={site.footerLinks} />
-    </Root>
+    </React.Fragment>
   )
 }
 

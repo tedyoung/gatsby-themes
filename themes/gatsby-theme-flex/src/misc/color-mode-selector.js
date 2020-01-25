@@ -1,15 +1,13 @@
 /** @jsx jsx */
 import React from "react"
-import { jsx } from "theme-ui"
-import { useThemeUI } from "theme-ui"
-import { Select } from "@theme-ui/components"
+import { jsx, Select, useThemeUI } from "theme-ui"
 import { startCase } from "lodash"
 import Button from "../components/button"
 
 export default React.forwardRef(({ style }, ref) => {
   const {
     theme: {
-      initialColorMode,
+      initialColorModeName,
       colors: { modes },
     },
     colorMode,
@@ -20,7 +18,7 @@ export default React.forwardRef(({ style }, ref) => {
     return null
   }
 
-  const colorModes = [initialColorMode, ...Object.keys(modes)]
+  const colorModes = [initialColorModeName, ...Object.keys(modes)]
 
   if (colorModes.length === 2) {
     const nextColorMode = colorModes.filter(mode => mode !== colorMode).pop()

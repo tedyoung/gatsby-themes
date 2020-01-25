@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import React from "react"
-import { jsx } from "theme-ui"
-import { Container } from "@theme-ui/components"
+import { jsx, Container } from "theme-ui"
 import PropTypes from "prop-types"
 import Image from "../components/image"
 import BlockLinks from "../layout/block-links"
