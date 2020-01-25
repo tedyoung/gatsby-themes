@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.1.4...gatsby-theme-flex@0.2.0) (2020-01-25)
+
+
+### Bug Fixes
+
+* **flex:** rename fill-rule to fillRule ([91b1137](https://github.com/arshad/gatsby-themes/commit/91b1137bc3077da7693a6e30815f6c9c5d8a0554))
+
+
+### Features
+
+* **flex:** update flex to use theme-ui 0.3.1 ([bb7df85](https://github.com/arshad/gatsby-themes/commit/bb7df85d37034aee1bc6e1c1659eb7ea0c86b60d))
+
+
+
+
+
 ## [0.1.4](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.1.3...gatsby-theme-flex@0.1.4) (2020-01-21)
 
 
