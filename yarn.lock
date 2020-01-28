@@ -14974,10 +14974,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss-dark-mode@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/tailwindcss-dark-mode/-/tailwindcss-dark-mode-1.1.1.tgz#efbe3ef1b046865360cf771d47d006dcc1014be9"
-  integrity sha512-xn19JYbCO4iUZz5jm46KRBbwJ7q91+4hnba/LYy1KAa68KjyVLVSdvv4b653sY4Y92EEG4dtudC0VK+u8okopA==
+tailwindcss-dark-mode@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss-dark-mode/-/tailwindcss-dark-mode-1.1.2.tgz#8bf32139a776692a04d0638c4276c9ade3679d40"
+  integrity sha512-jj4T5XkFwLxiKP1JwRerv2L7ir7RPxJKwMz+dJisQdV+17kzy7573alb/yEMw12HchJS++EhiwcUdh5Ql9GsmA==
   dependencies:
     tailwindcss "^1.1.4"
 
