@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-blog-core@1.1.0...@arshad/gatsby-theme-blog-core@1.1.1) (2020-01-28)
+
+
+### Bug Fixes
+
+* **flex:** update a11y for buttons ([a9151af](https://github.com/arshad/gatsby-themes/commit/a9151af381466e5f5cc7cff14a8a08bb752235ca))
+
+
+
+
+
 # [1.1.0](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-blog-core@1.0.2...@arshad/gatsby-theme-blog-core@1.1.0) (2020-01-20)
 
 ### Features

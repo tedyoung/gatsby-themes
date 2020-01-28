@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.2.0...gatsby-theme-flex@0.2.1) (2020-01-28)
+
+
+### Bug Fixes
+
+* **flex:** update flex to work with gatsby build ([afa4a89](https://github.com/arshad/gatsby-themes/commit/afa4a890b60271759b3360b7e542b0594a144a43))
+
+
+
+
+
 # [0.2.0](https://github.com/arshad/gatsby-themes/compare/gatsby-theme-flex@0.1.4...gatsby-theme-flex@0.2.0) (2020-01-25)
 
 

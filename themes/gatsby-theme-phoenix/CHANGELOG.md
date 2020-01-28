@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-phoenix@1.1.1...@arshad/gatsby-theme-phoenix@1.1.2) (2020-01-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tailwindcss-dark-mode to v1.1.2 ([aec5d66](https://github.com/arshad/gatsby-themes/commit/aec5d66d65169287ab83851461b3bb69619edcd8))
+
+
+
+
+
 ## [1.1.1](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-phoenix@1.1.0...@arshad/gatsby-theme-phoenix@1.1.1) (2020-01-21)
 
 
