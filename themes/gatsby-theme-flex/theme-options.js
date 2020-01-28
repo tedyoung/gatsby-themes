@@ -5,6 +5,7 @@ module.exports = themeOptions =>
     {
       manifest: {
         icon: `assets/images/favicon.png`,
+        start_url: `/`,
       },
     },
     themeOptions

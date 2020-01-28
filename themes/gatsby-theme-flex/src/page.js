@@ -7,7 +7,7 @@ import * as blocks from "./blocks"
 
 export default ({ title, description, slug, body }) => (
   <Layout title={title} description={description} url={slug}>
-    <MDXProvider components={blocks}>
+    <MDXProvider components={{...blocks}}>
       <MDXRenderer>{body}</MDXRenderer>
     </MDXProvider>
   </Layout>
