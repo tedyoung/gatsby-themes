@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-podcast-core@1.1.1...@arshad/gatsby-theme-podcast-core@1.1.2) (2020-03-02)
+
+
+### Bug Fixes
+
+* **podcast:** podcastSocialLink should not implement Node ([59bbe1c](https://github.com/arshad/gatsby-themes/commit/59bbe1c1317b1d67486a505ab511663a9ced2fdd))
+
+
+
+
+
 ## [1.1.1](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-podcast-core@1.1.0...@arshad/gatsby-theme-podcast-core@1.1.1) (2020-01-28)
 
 

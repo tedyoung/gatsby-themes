@@ -2,7 +2,7 @@
   "name": "@arshad/gatsby-theme-podcast-core",
   "description": "Adds support for podcast to Gatsby sites",
   "author": "arshad <arshad@chummun.com>",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@arshad/gatsby-source-podcast": "^1.0.1",
-    "@arshad/gatsby-theme-core": "^1.1.1",
+    "@arshad/gatsby-theme-core": "^1.1.2",
     "gatsby-awesome-pagination": "^0.3.5",
     "gatsby-source-filesystem": "^2.1.39",
     "is-relative-url": "^3.0.0"

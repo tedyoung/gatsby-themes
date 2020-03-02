@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-page-core@1.1.1...@arshad/gatsby-theme-page-core@1.1.2) (2020-03-02)
+
+**Note:** Version bump only for package @arshad/gatsby-theme-page-core
+
+
+
+
+
 ## [1.1.1](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-page-core@1.1.0...@arshad/gatsby-theme-page-core@1.1.1) (2020-01-28)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-core@1.1.1...@arshad/gatsby-theme-core@1.1.2) (2020-03-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sindresorhus/slugify to ^0.11.0 ([ae7cfbe](https://github.com/arshad/gatsby-themes/commit/ae7cfbe459f92ec0fc856463ae8fdfed94635dc0))
+
+
+
+
+
 ## [1.1.1](https://github.com/arshad/gatsby-themes/compare/@arshad/gatsby-theme-core@1.1.0...@arshad/gatsby-theme-core@1.1.1) (2020-01-28)
 
 
