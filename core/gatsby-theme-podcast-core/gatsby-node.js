@@ -14,8 +14,7 @@ exports.onPreBootstrap = ({ reporter }, themeOptions) => {
 
 exports.createSchemaCustomization = ({ actions }) => {
   actions.createTypes(`
-    type PodcastSocialLink implements Node @dontInfer {
-      id: ID!
+    type PodcastSocialLink {
       name: String!
       url: String!
     }
