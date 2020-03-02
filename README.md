@@ -26,6 +26,12 @@ Flex is a Gatsby theme that lets you build your site by writing simple component
 
 <img src="https://arshad.io/uploads/gatsby-theme-flex.gif" />
 
+Create a new site based on this starter:
+
+```shell
+gatsby new <name of your site> arshad/gatsby-starter-flex
+```
+
 ### Phoenix
 
 <p>
@@ -36,6 +42,12 @@ Flex is a Gatsby theme that lets you build your site by writing simple component
 <p>A Gatsby theme that bundles a <strong>blog, portfolio, photography</strong> and <strong>podcast</strong>. It uses <strong>Tailwind CSS</strong> for theming and includes <strong>code highlighting with Prism, RSS feed, a dark mode</strong> and <strong>great typography</strong>.</p>
 
 <img src="https://arshad.io/uploads/gatsby-theme-phoenix-screenshot.jpg" />
+
+Create a new site based on this starter:
+
+```shell
+gatsby new <name of your site> arshad/gatsby-starter-phoenix
+```
 
 ## Architecture
 
